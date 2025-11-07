@@ -5,7 +5,7 @@ import random
 import google.generativeai as genai
 
 def load_model():
-    genai.configure(api_key="")
+    genai.configure(api_key=" ")
     return genai.GenerativeModel("gemini-1.5-flash")
 
 model = load_model()
